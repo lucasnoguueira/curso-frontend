@@ -27,6 +27,18 @@ Informação de alteração
 - após testado todo seu código
 - git add*
 - git commit -m 'mensagem'
+- git push (enviar alterações para o repositório GitHub)
+- git pull (puxar/trazer alterações do GitHub para sua máquina)
 
 ## Gitflow
 Fluxo de Git
+
+
+### Branchs 
+São ramificações - versões paralelas
+
+- main/master (vai para produção, quando o projeto é publicado)
+- dev (branch onde desenvolvemos e testamos o código até estar 100% antes de mandar para a branch master)
+- DOD - Definition of Done: critérios de aceite
+- versionamento 1.0.0
+
