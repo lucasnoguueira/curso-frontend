@@ -1,0 +1,92 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:62.5% ;
+}
+
+body {
+
+    font-size: 1.6em;
+
+}
+
+footer {
+
+    color: #333 ;
+    font-size: 1.2rem;
+
+}
+
+div {
+    margin: 40px auto;
+}
+
+
+/* cria um círculo */
+#grafico-01 {
+
+    background-color: brown;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+
+}
+
+#grafico-01 img {
+    width: 100%;
+}
+
+/* cria um triângulo */
+
+#grafico-02 {
+
+    background: transparent;
+    border-style: solid;
+    border-width: 60px 0 60px 120px;
+    border-color: transparent transparent transparent blue;
+    width: 60px;
+
+
+}
+
+#imagem-vetorial {
+
+    width: 200px;
+
+}
+
+
+/* Filtros - servem para criar efeitos especiais nas imagens */
+
+#grafico-01 {
+
+    filter: drop-shadow(8px 8px 10px #333);
+    /*cria uma sobra em volta da imagem*/
+    /*primeiro valor controla a sombra do eixo horizontal */
+    /*segundo valor controla a sombra do eixo vertical */
+    /*terceiro valor controla os níveis de transição, deixa mais ou menos esfumado*/
+    
+    max-width: 100%; /*preenche no maximo a porcetagem da área que escolhermos*/
+    height: auto;
+}
+
+
+.filtro {
+
+    filter: grayscale(100%); /* Escala de Cinza */
+    filter: blur(5px); /* Desfoca a imagem */
+    filter: brightness(100%); /*Brilho 100%=imagem original*/
+    filter: invert(100%); /* Inversao de cores */
+    filter: opacity(100%); /* 100% = imagem original*/
+    filter: saturate(200%) sepia(100%) ;
+    /*Para combinar os filtros basta separar por espaços como acima*/
+
+
+}
+
+.filtro:hover {
+    filter: grayscale(0%);
+  
+    
+}

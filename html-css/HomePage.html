@@ -1,0 +1,123 @@
+<!DOCTYPE html> 
+<html lang="pt_BR">
+	<head>
+		<title>HTML - Lucas Home</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1">
+		
+	</head>
+	<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #666;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #ccc;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #f1f1f1;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #777;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+	<body>
+		
+		<header>
+			<h2>Curso Front-End - HTML</h2>
+		</header>
+
+		<section>
+			<nav>
+			<h3>Aulas</h3>
+				<ul>
+					<li><a href="./01-Introducao.html">Introdução</li></a>
+					<li><a href="./02-Listas_e_links.html">Listas e Links</li></a>
+					<li><a href="./03-Formatacao_de_textos.html">Formatação de texto</li></a>
+					<li><a href="./04-Tabelas.html">Tabelas</li></a>
+					<li><a href="./05-Layouts.html">Layouts</li></a>
+					<li><a href="./06-Formularios.html">Formulários</li></a>
+					
+				</ul>
+
+				<h3>Redes Sociais</h3>
+
+				<ul>
+					<li><a href="https://www.linkedin.com/in/lucas-nogueira-535061124/">LinkedIn</li></a>
+					<li><a href="https://www.instagram.com/luucas.assis/">@luucas.assis</li></a>
+
+				</ul>
+
+			</nav>
+
+			<article>
+
+				<blockquote><img src="https://media-exp1.licdn.com/dms/image/C4E03AQFwRNVAuw-65w/profile-displayphoto-shrink_200_200/0/1626705531056?e=1655942400&v=beta&t=Bfe_XpitqWsodMTzgCb-UocK642GBAFW0tYaiGO2xHo" alt="Lucas Nogueira"></blockquote>
+
+				<blockquote><h2>Lucas Nogueira de Assis</h2></blockquote>
+
+				<blockquote><p>Engenheiro químico atualmente trabalhando como Analista de Pesquisa e Desenvolvimento de revestimento para embalagens alímenticias há 5 anos, atendendo todas as exigências da ANVISA, FDA, e EFSA. </p></blockquote>
+
+				<blockquote><p>
+					Atualmente busco uma transição de carreira, sempre tive muito interesse pela área de programação e hoje estou buscando ingressar nessa área e pra isso, estou em formação para desenvolvedor Full stack pela EBAC. 
+				</p></blockquote>
+
+
+
+			</article>
+
+		</section>
+
+		<footer>Desenvolvido por Lucas</footer>
+
+	</body>
+</html>
