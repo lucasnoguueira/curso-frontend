@@ -19,6 +19,7 @@ https://git-scm.com/
 ## Criar conta no GitHub
 
 ## Clonar Projeto
+git clone https://github.com/lucasnoguueira/curso-frontend.git
 
 ## Commits
 Informação de alteração
