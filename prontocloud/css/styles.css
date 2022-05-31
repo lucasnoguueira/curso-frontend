@@ -17,7 +17,9 @@ body {
     display: block;
     float: left;
     padding: 20px;
-    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    max-width: 1198px;
 }
 
 header{
@@ -59,6 +61,20 @@ p {
     margin-bottom: 10px;
     line-height: 1.4; /*Espaçamento entre linhas*/
     color: #333;
+}
+
+img {
+    max-width: 100%; /*Para a imagem ficar responsiva*/
+    height: auto; /*altura fica auto para nao distorcer a imagem*/
+}
+
+#tenho-interesse {
+    background-color: #a0bdd6;
+    width: 100%;
+}
+
+#tenho-interesse form, .cog-form__container, .cog-form__content {
+    background-color: #a0bdd6 !important;
 }
 
 ol {
@@ -132,3 +148,4 @@ footer small {
     font-size: 80%;
     display: block;
 }
+
