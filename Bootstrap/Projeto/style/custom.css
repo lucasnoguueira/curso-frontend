@@ -1,0 +1,30 @@
+
+header {
+
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+}
+
+
+
+section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#sobre img {
+    border-radius: 10%;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
