@@ -1,3 +1,6 @@
+body {
+    background-color: #EEDDF9 ;
+}
 
 header {
 
@@ -6,10 +9,17 @@ header {
 
 }
 
+#logo {
+    max-width: 30%;
+
+}
+
+.col ul {
+    padding-top: 20px;
+}
 
 
 section {
-    padding-top: 4rem;
     padding-bottom: 4rem;
 }
 
